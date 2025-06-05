@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Fahad Saleem</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-code"></i> Fahad Saleem
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cv.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CV Header -->
+    <section class="page-header">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 mb-3">My Resume</h1>
+                    <p class="lead">Download or view my complete curriculum vitae</p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-primary me-3" onclick="downloadCV()">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <a href="#cv-content" class="btn btn-outline-primary">
+                            <i class="fas fa-eye"></i> View Online
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Content -->
+    <section class="py-5" id="cv-content">
+        <div class="container">
+            <!-- CV Display Card -->
+            <div class="card cv-card mb-4">
+                <div class="card-body p-5">
+                    <!-- Header -->
+                    <div class="text-center mb-5">
+                        <h1 class="cv-name">Fahad Saleem</h1>
+                        <p class="cv-title">Web Developer & Computer Science Student</p>
+                        <div class="cv-contact">
+                            <span><i class="fas fa-envelope"></i> fahadsaleemchfsc@gmail.com</span>
+                            <span class="mx-3">|</span>
+                            <span><i class="fas fa-phone"></i> +92 325 3177772</span>
+                        </div>
+                    </div>
+
+                    <!-- Summary -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Professional Summary</h3>
+                        <p class="cv-text">
+                            Passionate and dedicated Computer Science student with strong foundations in web development 
+                            and programming. Experienced in creating responsive, user-friendly websites using modern 
+                            technologies including HTML, CSS, JavaScript, and Bootstrap. Committed to continuous 
+                            learning and staying updated with the latest industry trends and best practices.
+                        </p>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Education</h3>
+                        <div class="cv-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4 class="cv-item-title">Bachelor of Science in Computer Science</h4>
+                                    <p class="cv-item-subtitle">Forman Christian College (A Chartered University)</p>
+                                    <p class="cv-item-description">
+                                        Currently pursuing BSCS with focus on web development, software engineering, 
+                                        and modern programming practices. Relevant coursework includes Web Application 
+                                        Development, Data Structures, Algorithms, and Database Management.
+                                    </p>
+                                </div>
+                                <span class="cv-date">2023 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Technical Skills</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="cv-subsection-title">Web Development</h5>
+                                <ul class="cv-skills-list">
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript (ES6+)</li>
+                                    <li>Bootstrap Framework</li>
+                                    <li>Responsive Web Design</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="cv-subsection-title">Programming Languages</h5>
+                                <ul class="cv-skills-list">
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>SQL</li>
+                                    <li>Git & GitHub</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Key Projects</h3>
+                        
+                        <div class="cv-item">
+                            <h4 class="cv-item-title">Personal Portfolio Website</h4>
+                            <p class="cv-item-description">
+                                Developed a responsive personal portfolio website using HTML, CSS, Bootstrap, and JavaScript. 
+                                Features include smooth animations, dark theme, contact form, and project showcase. 
+                                Implemented modern design principles and cross-browser compatibility.
+                            </p>
+                            <p class="cv-tech-stack"><strong>Technologies:</strong> HTML5, CSS3, Bootstrap, JavaScript</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4 class="cv-item-title">Task Management Application</h4>
+                            <p class="cv-item-description">
+                                Created a dynamic task manager with CRUD operations, local storage integration, 
+                                and drag-and-drop functionality. Users can create, edit, delete, and organize 
+                                tasks with persistent data storage.
+                            </p>
+                            <p class="cv-tech-stack"><strong>Technologies:</strong> JavaScript, Bootstrap, Local Storage, CSS3</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4 class="cv-item-title">Weather Dashboard</h4>
+                            <p class="cv-item-description">
+                                Built a real-time weather application using OpenWeatherMap API with geolocation 
+                                support, 5-day forecast, and responsive design for optimal user experience 
+                                across all devices.
+                            </p>
+                            <p class="cv-tech-stack"><strong>Technologies:</strong> JavaScript, API Integration, Bootstrap, Geolocation</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Experience & Activities</h3>
+                        
+                        <div class="cv-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4 class="cv-item-title">Web Development Student</h4>
+                                    <p class="cv-item-subtitle">Self-Directed Learning & Projects</p>
+                                    <p class="cv-item-description">
+                                        Continuously learning and practicing web development through online courses, 
+                                        tutorials, and hands-on projects. Focused on building a strong foundation 
+                                        in modern web technologies and best practices.
+                                    </p>
+                                </div>
+                                <span class="cv-date">2023 - Present</span>
+                            </div>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4 class="cv-item-title">Computer Science Course Projects</h4>
+                                    <p class="cv-item-subtitle">Forman Christian College</p>
+                                    <p class="cv-item-description">
+                                        Completed various academic projects including algorithms implementation, 
+                                        database design, and software development assignments. Demonstrated 
+                                        problem-solving skills and technical proficiency.
+                                    </p>
+                                </div>
+                                <span class="cv-date">2023 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Certifications & Learning</h3>
+                        <ul class="cv-skills-list">
+                            <li>Web Development Fundamentals</li>
+                            <li>Responsive Web Design</li>
+                            <li>JavaScript Programming</li>
+                            <li>Bootstrap Framework</li>
+                            <li>Git Version Control</li>
+                        </ul>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Languages</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="cv-skills-list">
+                                    <li>English - Fluent</li>
+                                    <li>Urdu - Native</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title">Interests</h3>
+                        <p class="cv-text">
+                            Web Development, Software Engineering, Mobile App Development, UI/UX Design, 
+                            Artificial Intelligence, Machine Learning, Open Source Contribution, 
+                            Technology Trends, Programming Challenges
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Download Section -->
+            <div class="text-center">
+                <div class="card download-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Download Resume</h5>
+                        <p class="card-text">Get a PDF copy of my complete resume for your records.</p>
+                        <button class="btn btn-primary" onclick="downloadCV()">
+                            <i class="fas fa-download"></i> Download PDF
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Fahad Saleem. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function downloadCV() {
+            // Create a simple PDF download simulation
+            alert('CV download feature will be implemented with actual PDF file. Please contact me directly for my resume.');
+            // In a real implementation, you would link to an actual PDF file:
+            // window.open('path/to/fahad-saleem-cv.pdf', '_blank');
+        }
+    </script>
+</body>
+</html>
